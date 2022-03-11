@@ -13,6 +13,11 @@ public class Punkt {
         this.y = y;
     }
 
+    public Punkt(Punkt point){
+        this.x = point.x;
+        this.y = point.y;
+    }
+
     public double getX(){ return x; }
 
     public void setX(double x) { this.x = (x < 0 ? -x: x); }
@@ -31,8 +36,7 @@ public class Punkt {
     }
 
     public double distance(Punkt p){
-        double dist = Math.pow(Math.pow((p.x - this.x), 2)+(Math.pow((p.y - this.y), 2)), 0.5);
-        return dist;
+        return Math.pow(Math.pow((p.x - this.x), 2)+(Math.pow((p.y - this.y), 2)), 0.5);
     }
 
 
