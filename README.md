@@ -1,13 +1,6 @@
-# Zestaw zadań nr 1
+# Java exercise
 
-| Termin oddania | Punkty     |
-|----------------|:-----------|
-|    25.03.2022 23:00 |   0     |
+Hi!
 
---- 
-Przekroczenie terminu o **n** zajęć wiąże się z karą:
-- punkty uzyskania za realizację zadania są dzielone przez **2<sup>n</sup>**.
-
---- 
-
-Tylko notatki z zajęć. Jeszcze bez punktów.
+Here is one of java exercises that was focused on Object Oriented Programming as well as Test Driven Development.
+The point of this exercise was to implement a simple Point class with coordinates and a Line class with two points of reference.
